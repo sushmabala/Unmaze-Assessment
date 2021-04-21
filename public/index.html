@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="faq-container">
+        <div class="img-container">
+          <svg class="desktop-img" xmlns="http://www.w3.org/2000/svg">
+            <image
+              width="10"
+              height="10"
+              href="./images/illustration-woman-online-desktop.svg"
+            />
+          </svg>
+        </div>
+        <svg class="box-img" xmlns="http://www.w3.org/2000/svg">
+          <image
+            width="10"
+            height="10"
+            href="./images/illustration-box-desktop.svg"
+          />
+        </svg>
+        <section class="accordion-section">
+          <h1>FAQ</h1>
+          <ul class="accordion-list">
+            <li class="accordion-item">
+              <div class="accordion-question active">
+                <p>
+                  How many team members can I invite?
+                </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon-arrow reverse"
+                >
+                  <image
+                    width="10"
+                    height="10"
+                    href="./images/icon-arrow-down.svg"
+                  />
+                </svg>
+              </div>
+              <p class="accordion-answer">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </li>
+            <li class="accordion-item">
+              <div class="accordion-question">
+                <p>
+                  What is the maximum file upload size?
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                  <image
+                    width="10"
+                    height="10"
+                    href="./images/icon-arrow-down.svg"
+                  />
+                </svg>
+              </div>
+              <p class="accordion-answer hidden">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </li>
+            <li class="accordion-item">
+              <div class="accordion-question">
+                <p>
+                  How do I reset my password?
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                  <image
+                    width="10"
+                    height="10"
+                    href="./images/icon-arrow-down.svg"
+                  />
+                </svg>
+              </div>
+              <p class="accordion-answer hidden">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </li>
+            <li class="accordion-item">
+              <div class="accordion-question">
+                <p>
+                  Can I cancel my subscription?
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                  <image
+                    width="10"
+                    height="10"
+                    href="./images/icon-arrow-down.svg"
+                  />
+                </svg>
+              </div>
+              <p class="accordion-answer hidden">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </li>
+            <li class="accordion-item">
+              <div class="accordion-question">
+                <p>
+                  Do you provide additional support?
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow">
+                  <image
+                    width="10"
+                    height="10"
+                    href="./images/icon-arrow-down.svg"
+                  />
+                </svg>
+              </div>
+              <p class="accordion-answer hidden">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <footer>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.github.com/jskway">Jack Kim</a>.
+      </footer>
+    </div>
+  </body>
+</html>
